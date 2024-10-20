@@ -13,12 +13,16 @@ Spine runtimes for iOS.
   s.author           = { "Esoteric Software LLC  " => "https://esotericsoftware.com" }
   s.license          = { :file => 'LICENSE' }
 
-  s.source           = { :git => 'https://github.com/esotericsoftware/spine-runtimes.git', :branch => '4.2' }
-  s.source_files     = 'spine-ios/Sources/Spine/**/*.{swift,metal}'
+  s.source           = { :git => 'https://github.com/kikiloveswift/spine-runtimes.git', :branch => '4.2' }
+  s.source_files     = 'spine-ios/Sources/Spine/**/*.{swift}'
   s.platform         = :ios, '13.0'
 
   s.xcconfig = {
     'HEADER_SEARCH_PATHS' => '"$(PODS_ROOT)/SpineCppLite/spine-cpp/spine-cpp/include" "$(PODS_ROOT)/SpineCppLite/spine-cpp/spine-cpp-lite"'
+  }
+
+  s.resource_bundles = {
+    'SpineBundle' => ['spine-ios/Sources/Spine/**/*.{metal}']
   }
 
   s.swift_version = '5.0'

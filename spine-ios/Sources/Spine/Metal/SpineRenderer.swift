@@ -61,7 +61,10 @@ internal final class SpineRenderer: NSObject, MTKViewDelegate {
         #if SWIFT_PACKAGE // SPM
         bundle = .module
         #else // CocoaPods
-        bundle = Bundle(for: SpineRenderer.self)
+        //        bundle = Bundle(for: SpineRenderer.self)
+        // support static libray
+        let bundleURL = Bundle(for: SpineRenderer.self).url(forResource: "SpineBundle", withExtension: "bundle")
+        bundle = Bundle(url: bundleURL!)!
         #endif
         
         let defaultLibrary = try device.makeDefaultLibrary(bundle: bundle)
