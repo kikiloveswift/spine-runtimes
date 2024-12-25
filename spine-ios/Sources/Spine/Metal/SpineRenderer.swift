@@ -85,10 +85,13 @@ internal final class SpineRenderer: NSObject, MTKViewDelegate {
             SPINE_BLEND_MODE_MULTIPLY,
             SPINE_BLEND_MODE_SCREEN
         ]
+        let useLow = false
+        let vertexName = useLow ? "vertexShaderLow" : "vertexShader"
+        let fragmentName = useLow ? "fragmentShaderLow" : "fragmentShader"
         for blendMode in blendModes {
             let descriptor = MTLRenderPipelineDescriptor()
-            descriptor.vertexFunction = defaultLibrary.makeFunction(name: "vertexShader")
-            descriptor.fragmentFunction = defaultLibrary.makeFunction(name: "fragmentShader")
+            descriptor.vertexFunction = defaultLibrary.makeFunction(name: vertexName)
+            descriptor.fragmentFunction = defaultLibrary.makeFunction(name: fragmentName)
             descriptor.colorAttachments[0].pixelFormat = pixelFormat
             descriptor.colorAttachments[0].apply(
                 blendMode: blendMode,

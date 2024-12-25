@@ -14,9 +14,9 @@ typedef enum SpineTextureIndex {
 } SpineTextureIndex;
 
 typedef struct {
-    vector_float2 position;
-    vector_float4 color;
-    vector_float2 uv;
+    simd_float2 position;  // 使用两个 float 的数组来模拟 SIMD2<Float>
+    simd_float4 color;     // 使用四个 float 的数组来模拟 SIMD4<Float>
+    simd_float2 uv;        // 使用两个 float 的数组来模拟 SIMD2<Float>
 } SpineVertex;
 
 typedef struct {

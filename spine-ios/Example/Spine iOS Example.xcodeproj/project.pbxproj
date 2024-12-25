@@ -43,21 +43,21 @@
 
 /* Begin PBXFileReference section */
 		76381FCC2C2EF4030087712B /* celestial-circus-pma.atlas */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "celestial-circus-pma.atlas"; sourceTree = "<group>"; };
-		76381FCD2C2EF4030087712B /* celestial-circus-pma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "celestial-circus-pma.png"; sourceTree = "<group>"; };
+		76381FCD2C2EF4030087712B /* celestial-circus-pma.png */ = {isa = PBXFileReference; explicitFileType = compiled; path = "celestial-circus-pma.png"; sourceTree = "<group>"; };
 		76381FD12C2EF4F00087712B /* spineboy-pma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spineboy-pma.png"; sourceTree = "<group>"; };
 		76381FD52C2EF4F00087712B /* spineboy-pma.atlas */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "spineboy-pma.atlas"; sourceTree = "<group>"; };
-		76381FDC2C2EF53A0087712B /* mix-and-match-pma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mix-and-match-pma.png"; sourceTree = "<group>"; };
+		76381FDC2C2EF53A0087712B /* mix-and-match-pma.png */ = {isa = PBXFileReference; explicitFileType = compiled; path = "mix-and-match-pma.png"; sourceTree = "<group>"; };
 		76381FDD2C2EF53A0087712B /* mix-and-match-pma.atlas */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "mix-and-match-pma.atlas"; sourceTree = "<group>"; };
 		9205FCD32C0760B1006EE07E /* SimpleAnimationViewControllerRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleAnimationViewControllerRepresentable.swift; sourceTree = "<group>"; };
 		920BD1122BEBC52D0050A5A9 /* spineboy-pro.skel */ = {isa = PBXFileReference; lastKnownFileType = file; path = "spineboy-pro.skel"; sourceTree = "<group>"; };
 		920BD1142BEBC52D0050A5A9 /* spineboy-pro.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "spineboy-pro.json"; sourceTree = "<group>"; };
 		920BD11A2BEBDBA60050A5A9 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		920BD11C2BEBDC380050A5A9 /* PlayPauseAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayPauseAnimation.swift; sourceTree = "<group>"; };
-		920BD11F2BEBDCD80050A5A9 /* dragon_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dragon_4.png; sourceTree = "<group>"; };
-		920BD1202BEBDCD80050A5A9 /* dragon_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dragon_5.png; sourceTree = "<group>"; };
+		920BD11F2BEBDCD80050A5A9 /* dragon_4.png */ = {isa = PBXFileReference; explicitFileType = compiled; path = dragon_4.png; sourceTree = "<group>"; };
+		920BD1202BEBDCD80050A5A9 /* dragon_5.png */ = {isa = PBXFileReference; explicitFileType = compiled; path = dragon_5.png; sourceTree = "<group>"; };
 		920BD1212BEBDCD80050A5A9 /* dragon_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dragon_2.png; sourceTree = "<group>"; };
 		920BD1222BEBDCD80050A5A9 /* dragon-ess.skel */ = {isa = PBXFileReference; lastKnownFileType = file; path = "dragon-ess.skel"; sourceTree = "<group>"; };
-		920BD1232BEBDCD80050A5A9 /* dragon_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dragon_3.png; sourceTree = "<group>"; };
+		920BD1232BEBDCD80050A5A9 /* dragon_3.png */ = {isa = PBXFileReference; explicitFileType = compiled; path = dragon_3.png; sourceTree = "<group>"; };
 		920BD1242BEBDCD80050A5A9 /* dragon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dragon.png; sourceTree = "<group>"; };
 		920BD1252BEBDCD80050A5A9 /* dragon.atlas */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dragon.atlas; sourceTree = "<group>"; };
 		921C1EAE2BF609F60001A0BA /* DressUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DressUp.swift; sourceTree = "<group>"; };

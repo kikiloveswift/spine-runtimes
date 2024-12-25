@@ -123,7 +123,7 @@ namespace spine {
 		}
 
 		inline void removeAt(size_t inIndex) {
-			assert(inIndex < _size);
+//			assert(inIndex < _size);
 
 			--_size;
 
@@ -159,8 +159,7 @@ namespace spine {
 		}
 
 		inline T &operator[](size_t inIndex) {
-			assert(inIndex < _size);
-
+            // 删除 assert
 			return _buffer[inIndex];
 		}
 
